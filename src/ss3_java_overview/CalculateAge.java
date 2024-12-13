@@ -12,7 +12,6 @@ public class CalculateAge {
         //Tinh tuoi
         int age = 2024 - year;
         System.out.println("Tuổi hiện tại của bạn: " + age);
-
         //How to ... in java
     }
 }

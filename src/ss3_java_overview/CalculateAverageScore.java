@@ -18,10 +18,10 @@ public class CalculateAverageScore {
 
         System.out.print("Nhập vào điểm Hoá: ");
         double diemHoa = sc.nextDouble();
-        System.out.print("Nhập hiệu số điểm hoá: ");
+        System.out.print("Nhập hiệu số điểm Hoá: ");
         double hsHoa = sc.nextDouble();
 
-        double DTB = (((diemToan * hsToan) + (diemLy * hsLy) + (hsHoa * hsHoa)))/(hsToan + hsLy + hsHoa);
-        System.out.println("Điểm trung bình: " + DTB);
+        double diemTB = (((diemToan * hsToan) + (diemLy * hsLy) + (diemHoa * hsHoa)))/(hsToan + hsLy + hsHoa);
+        System.out.println("Điểm trung bình: " + diemTB);
     }
 }
