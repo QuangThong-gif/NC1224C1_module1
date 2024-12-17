@@ -8,11 +8,11 @@ public class Factorial {
         System.out.print("Nhập n: ");
         int n = sc.nextInt();
 
-        double sum = 0;
+        double sum = 0.0;
         for(int i = 1; i <= n; i++){
             int factorial = 1;
 
-            for(int j = 1; j <= i; j++){
+            for(int j = 1; j <= (2 * i - 1); j++){
                 factorial *= j;
             }
             sum += 1.0 / factorial;
